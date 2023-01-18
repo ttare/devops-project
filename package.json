@@ -1,0 +1,13 @@
+{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-gateway": "cd api-gateway && npm run start",
+    "profile-service": "cd profile-service && npm run start",
+    "notification-service": "cd notification-service && npm run start"
+  },
+  "author": "",
+  "license": "ISC"
+}
